@@ -18,7 +18,8 @@ ul{
     grid-template-columns: 1fr;
     width: 95%;
     font-size: 20px;
-    margin: 0 0 250px 20px;  
+    margin: auto;
+      
   }
 
   .navegacion-principal a {
@@ -35,13 +36,13 @@ ul{
   }
 
   .contenedor-navegacion{
-
-
+    
   }
 
 .contenedor-boton{
   display: flex;
   justify-content: center;
+  margin-top: 200px;
 }
 
   
@@ -70,6 +71,7 @@ img{
 
 .boton-salir{
   background-color: #98179A;
+  cursor: pointer;
   display: inline-block;
   text-align: center;
   font-size: 18px;
@@ -80,3 +82,45 @@ img{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 
 }
+
+.button {
+  background: #98179A;
+  text-decoration: none;
+  cursor: pointer;
+  border: none;
+  padding: 5px 100px;
+  color: #fff;
+  font-size: 24px;
+  font-weight: bold;
+  position: relative;
+  border-radius: 10px;
+}
+
+
+.button::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, red, blue, deeppink, blue, red, blue, deeppink, blue);
+  background-size: 800%;
+  border-radius: 10px;
+  filter: blur(8px);
+  animation: glowing 20s linear infinite;
+}
+
+@keyframes glowing{
+  0% {
+    background-position: 0 0;
+  }
+  50%{
+    background-position: 400% 0;
+  }
+  100%{
+    background-position: 0 0;
+  }
+}
+
