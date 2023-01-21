@@ -3,6 +3,14 @@ h1{
   color: #98179A;
 }
 
+h2{
+  font-size: 14px;
+}
+
+h3{
+  font-size: 12px;
+}
+
 ul{
   padding: 0;
 }
@@ -42,13 +50,23 @@ ul{
 .contenedor-boton{
   display: flex;
   justify-content: center;
-  margin-top: 200px;
+  margin-top: 20px;
+  
 }
+
+/**Utilidades**/
+  .space-evenly{
+      display: flex;
+      justify-content: space-evenly;
+      border-bottom: 2px solid #98179A;
+      padding: 10px;
+  }
 
   
 .header{
-    display: grid;
+    display: flex;
     grid-template-columns: repeat(2, 1fr);
+    justify-content: space-between;
     border-bottom: 2px solid #98179A;
     margin: auto;
     padding-top: 10px;
@@ -60,9 +78,7 @@ img{
 }
 
 .logo-empresa{
-    justify-self: end;
     max-width: 80px;
-
 }
 
 .boton-menu{
@@ -97,7 +113,7 @@ img{
 }
 
 
-.button::before{
+/**.button::before{
   content: "";
   position: absolute;
   top: 0;
@@ -110,7 +126,7 @@ img{
   border-radius: 10px;
   filter: blur(8px);
   animation: glowing 20s linear infinite;
-}
+}**/
 
 @keyframes glowing{
   0% {
@@ -122,5 +138,20 @@ img{
   100%{
     background-position: 0 0;
   }
+}
+
+.condicion-inventario{
+  display: flex;
+  grid-template-columns: repeat(2, 1fr);
+  justify-content: space-between;
+  border-bottom: 2px solid #98179A;
+}
+
+.condicion-departamento h2{
+  color: #98179A;
+}
+
+.condicion h2{
+  color: #696969;
 }
 
