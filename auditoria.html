@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/app.css">
+    <title>StockVIEW</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+
+
+<body class="">
+    <header class="">
+        <nav class="navbar bg-info d-flex">
+            <div class="container">
+                <a class="navbar-brand m-0" href="index.html">
+                    <img src="/img/logo SV.png" alt="Logo Wemake" width="" height="50">
+                </a>
+
+                <a class="navbar-brand m-0" href="index.html">
+                    <img src="/img/logowemake.png" alt="Logo Wemake" width="" height="40">
+                </a>
+
+                <a class="navbar-brand m-0" href="index.html">
+                    <svg xmlns="http://www.w3.org/2000/svg" color="#98179A" width="" height="40" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                    <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+                    <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+                    </svg>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="mt-2 mb-2 container">
+        <a class="navbar-brand" href="sucursal.html">
+        <svg xmlns="http://www.w3.org/2000/svg" color="#98179A" width="40" height="40" fill="currentColor" class="bi bi-geo-alt-fill" viewBox="0 0 16 16">
+        <path d="M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10zm0-7a3 3 0 1 1 0-6 3 3 0 0 1 0 6z"/>
+        </svg>
+        Albrook</a>
+    </section>
+
+    <section class="container row bg-primary-subtle m-auto mb-2 p-2">
+        <div class="col-6 d-flex justify-content-end">
+            <svg xmlns="http://www.w3.org/2000/svg" color="#98179A" width="40" height="40" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+            <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+        </div>
+               
+        <div class="col-6 d-flex justify-content-start">
+            <svg xmlns="http://www.w3.org/2000/svg" color="#98179A" width="40" height="40" fill="currentColor" class="bi bi-file-earmark-check" viewBox="0 0 16 16">
+            <path d="M10.854 7.854a.5.5 0 0 0-.708-.708L7.5 9.793 6.354 8.646a.5.5 0 1 0-.708.708l1.5 1.5a.5.5 0 0 0 .708 0l3-3z"/>
+            <path d="M14 14V4.5L9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2zM9.5 3A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5v2z"/>
+            </svg>
+        </div>
+    </section>
+
+    <section class="row container  m-auto p-2">
+
+        <div class="col-12">
+            <h3>Listado de Carga</h3>
+            <table class="table table-striped ">
+                <thead>
+                    <tr>
+                        <th>Ubicaciones Cerradas</th>
+                        <th>Referencias Pedeteadas</th>
+                        <th><svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-hand-index" viewBox="0 0 16 16">
+                            <path d="M6.75 1a.75.75 0 0 1 .75.75V8a.5.5 0 0 0 1 0V5.467l.086-.004c.317-.012.637-.008.816.027.134.027.294.096.448.182.077.042.15.147.15.314V8a.5.5 0 1 0 1 0V6.435a4.9 4.9 0 0 1 .106-.01c.316-.024.584-.01.708.04.118.046.3.207.486.43.081.096.15.19.2.259V8.5a.5.5 0 0 0 1 0v-1h.342a1 1 0 0 1 .995 1.1l-.271 2.715a2.5 2.5 0 0 1-.317.991l-1.395 2.442a.5.5 0 0 1-.434.252H6.035a.5.5 0 0 1-.416-.223l-1.433-2.15a1.5 1.5 0 0 1-.243-.666l-.345-3.105a.5.5 0 0 1 .399-.546L5 8.11V9a.5.5 0 0 0 1 0V1.75A.75.75 0 0 1 6.75 1zM8.5 4.466V1.75a1.75 1.75 0 1 0-3.5 0v5.34l-1.2.24a1.5 1.5 0 0 0-1.196 1.636l.345 3.106a2.5 2.5 0 0 0 .405 1.11l1.433 2.15A1.5 1.5 0 0 0 6.035 16h6.385a1.5 1.5 0 0 0 1.302-.756l1.395-2.441a3.5 3.5 0 0 0 .444-1.389l.271-2.715a2 2 0 0 0-1.99-2.199h-.581a5.114 5.114 0 0 0-.195-.248c-.191-.229-.51-.568-.88-.716-.364-.146-.846-.132-1.158-.108l-.132.012a1.26 1.26 0 0 0-.56-.642 2.632 2.632 0 0 0-.738-.288c-.31-.062-.739-.058-1.05-.046l-.048.002zm2.094 2.025z"/>
+                          </svg></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>SUC3-000001</td>
+                        <td>85</td>
+                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        </button></td>
+                    </tr>
+                    <tr>
+                        <td>SUC3-000002</td>
+                        <td>85</td>
+                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        </button></td>
+                    </tr>
+                    <tr>
+                        <td>SUC3-000003</td>
+                        <td>85</td>
+                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        </button></td>
+                    </tr>
+                    <tr>
+                        <td>SUC3-000004</td>
+                        <td>85</td>
+                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        </button></td>
+                    </tr>
+                    <tr>
+                        <td>SUC3-000005</td>
+                        <td>85</td>
+                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        </button></td>
+                    </tr>
+                    <tr>
+                        <td>SUC3-000006</td>
+                        <td>85</td>
+                        <td><input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                        <label class="form-check-label" for="flexCheckDefault">
+                        </button></td>
+                    </tr>
+ 
+                </tbody>
+            </table>
+
+            <nav aria-label="...">
+                <ul class="pagination">
+                  <li class="page-item disabled">
+                    <a class="page-link">Anterior</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item active" aria-current="page">
+                    <a class="page-link" href="#">2</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">Siguiente</a>
+                  </li>
+                </ul>
+              </nav>
+
+        </div>
+
+
+            <div class="row mt-3 d-flex">
+                <div class="col-6 d-flex justify-content-center">
+                    <button type="button" class="rounded-pill btn btn-danger">Limpiar Ubicación</button>
+                </div>
+                <div class="col-6 d-flex justify-content-center">
+                    <button type="button" class="rounded-pill btn btn-primary">Guardar Ubicación</button>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <div class="col-10 mx-auto mt-5 d-grid gap-5">
+        <a href="sucursal.html" type="button" class="btn btn-success rounded-pill">Cambiar Sucursal</a>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

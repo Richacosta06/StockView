@@ -57,72 +57,82 @@
         </div>
     </section>
 
-    <section class="row container bg-primary-subtle m-auto p-2">
-        <div class="col-6">
-            <h6>Condición de inventario</h6>
+    <section class="row container  m-auto p-2">
+
+        <div class="col-12">
+            <h3>Listado de Carga</h3>
+            <table class="table table-striped ">
+                <thead>
+                    <tr>
+                        <th>Código/Referencia</th>
+                        <th>Conteo</th>
+                        <th>Borrar</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>123456789</td>
+                        <td>850</td>
+                        <td><button type="button" class="btn-close" aria-label="Close"></button></td>
+                    </tr>
+                    <tr>
+                        <td>123456789</td>
+                        <td>850</td>
+                        <td><button type="button" class="btn-close" aria-label="Close"></button></td>
+                    </tr>
+                    <tr>
+                        <td>123456789</td>
+                        <td>850</td>
+                        <td><button type="button" class="btn-close" aria-label="Close"></button></td>
+                    </tr>
+                    <tr>
+                        <td>123456789</td>
+                        <td>850</td>
+                        <td><button type="button" class="btn-close" aria-label="Close"></button></td>
+                    </tr>
+                    <tr>
+                        <td>123456789</td>
+                        <td>850</td>
+                        <td><button type="button" class="btn-close" aria-label="Close"></button></td>
+                    </tr>
+                    <tr>
+                        <td>123456789</td>
+                        <td>850</td>
+                        <td><button type="button" class="btn-close" aria-label="Close"></button></td>
+                    </tr>
+                    <tr>
+                        <td>123456789</td>
+                        <td>850</td>
+                        <td><button type="button" class="btn-close" aria-label="Close"></button></td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <nav aria-label="...">
+                <ul class="pagination">
+                  <li class="page-item disabled">
+                    <a class="page-link">Anterior</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">1</a></li>
+                  <li class="page-item active" aria-current="page">
+                    <a class="page-link" href="#">2</a>
+                  </li>
+                  <li class="page-item"><a class="page-link" href="#">3</a></li>
+                  <li class="page-item">
+                    <a class="page-link" href="#">Siguiente</a>
+                  </li>
+                </ul>
+              </nav>
+
         </div>
 
-        <div class="col-6">
-            <h6>Departamento Textil</h6>
-        </div>
-    </section>
-
-    <section class="container">
-        <form class="">
-            <div class="border row mt-2 bg-light">
-                <div class="col-10">
-                    <label class="fw-bold form-label" for="nombre">Escanear Ubicación</label>
-                    <input class="form-control" id="nombre" type="text" placeholder="SUC3-00001">
-                </div>
-
-                <div class="col-2 d-flex align-items-center justify-content-center p-0">
-                    <svg xmlns="http://www.w3.org/2000/svg" color="#98179A" width="40" height="40" fill="currentColor" class="bi bi-box-seam" viewBox="0 0 16 16">
-                    <path d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z"/>
-                    </svg>
-                </div>
-    
-                <div class="col-12">
-                    <p>Piso 1 - Venta - Estante 1</p>
-                </div>
-            </div>
-
-            <div class="border row mt-2 pb-1 bg-light">
-                <div class="col-12">
-                    <label class="fw-bold form-label" for="articulo">Escanear Artículo</label>
-                    <input class="form-control" id="articulo" type="text" placeholder="Producto ABCD">
-                </div>
-    
-                <div class="row col-12 align-items-center justify-content-center">
-                    <p class="">Producto ABCD</p>
-                </div>
-                <div class="m-auto p-0 row col-6 align-items-center justify-content-center">
-                    <p class="p-0 m-0">Departamento XXX</p>
-                </div>
-    
-                <div class="row col-6 align-items-center justify-content-center">
-                    <p class="p-0 m-0">Precio 999</p>
-                </div>
-            </div>
-
-            <div class="border row mt-2 pb-1 bg-light">
-                <div class="col-6">
-                    <label class="fw-bold form-label" for="cantidad">Ingrese Cantidad</label>
-                    <input class="form-control" id="cantidad" type="text" placeholder="25">
-                </div>
-                <div class="col-6 d-flex align-items-center justify-content-center">
-                    <button type="button" class="rounded-pill btn btn-success">Cargar Articulo</button>
-                </div>
-            </div>
 
             <div class="row mt-3 d-flex">
-                <div class="col-4 d-flex justify-content-center">
-                    <button type="button" class="rounded-pill btn btn-danger">Borrar Articulo</button>
+                <div class="col-6 d-flex justify-content-center">
+                    <button type="button" class="rounded-pill btn btn-danger">Limpiar Ubicación</button>
                 </div>
-                <div class="col-4 d-flex justify-content-center">
-                    <button type="button" class="rounded-pill btn btn-primary">Cargar Lote</button>
-                </div>
-                <div class="col-4 d-flex justify-content-center">
-                    <button type="button" class="rounded-pill btn btn-primary">Cargar 1 x 1</button>
+                <div class="col-6 d-flex justify-content-center">
+                    <button type="button" class="rounded-pill btn btn-primary">Guardar Ubicación</button>
                 </div>
             </div>
         </form>
